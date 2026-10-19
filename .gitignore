@@ -1,0 +1,16 @@
+# Arquivos temporários e de sistema
+desktop.ini
+node_modules/
+.DS_Store
+
+# Ignora fotos originais pesadas da raiz (1.57 GB)
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+
+# Mantém os assets web da galeria
+!logo.svg
+!logo.png
+!photos/
+!photos/**
